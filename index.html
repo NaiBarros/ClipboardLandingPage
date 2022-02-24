@@ -12,23 +12,14 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <main>
     <header class="header">
-      <figure class="logoC"><img src="images/logo.svg" alt=""></figure>
+      <figure class="logoC">
+        <img src="images/logo.svg" alt="Logo do site">
+      </figure>
       <h1>A history of everything you copy</h1>
       <p>
         Clipboard allows you to track and organize everything you
@@ -41,7 +32,7 @@
     </header>
 
 
-    <section>
+    <section id="home">
       <h1>Keep track of your snippets</h1>
       <p>
         Clipboard instantly stores any item you copy in the cloud,
@@ -52,25 +43,26 @@
         <img class="telaPC" src="images/image-computer.png" alt="">
 
 
-
-
         <div class="ul">
           <li>
             <h3>Quick Search</h3>
             <p>Easily search your snippets by content, category, web address, application, and more.
             </p>
           </li>
+
           <li>
             <h3>iCloud Sync</h3>
             <p>Instantly saves and syncs snippets across all your devices.
             </p>
           </li>
+
           <li>
             <h3>Complete History</h3>
             <p>Retrieve any snippets from the first moment you started using the app.
             </p>
           </li>
           </ul>
+
         </div>
       </div>
     </section>
@@ -141,22 +133,27 @@
         Available for free on the App Store. Download for Mac or iOS, sync with iCloud
         and you’re ready to start adding to your clipboard.
       </p>
-      <a href="">Download for iOS</a>
-      <a href="">Download for MacDownload for Mac</a>
+      <div class="botoes">
+        <a class="botao verde" href="">Download for iOS</a>
+        <a class="botao azul" href="">Download for Mac</a>
+      </div>
     </section>
 
 
     <footer>
-      <img src="images/logo.svg" alt="">
-      FAQs
-      Contact Us
-      Privacy Policy
-      Press Kit
-      Install Guide
-
-      <img src="images/icon-facebook.svg" alt="">
-      <img src="images/icon-instagram.svg" alt="">
-      <img src="images/icon-twitter.svg" alt="">
+      <img class="footer logo" src="images/logo.svg" alt="">
+      <ul class="lista1">
+        <a href="#home"> FAQs</a>
+        <li>Privacy Policy</li>
+        <li>Install Guide</li>
+        <li>Contact Us</li>
+        <li>Press Kit</li>
+      </ul>
+      <div class="fit">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-instagram.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+      </div>
     </footer>
     </div>
   </main>
