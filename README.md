@@ -32,9 +32,7 @@ Este projeto foi construido visando praticar os principais conceitos de HTML e C
 </div>
 
 ### :bulb: Utilidades para serem desenvolvidas
-- Tela Mobile
 - Responsividade
-- Estilos interativos
 
 ## 🚀 Tecnologias utilizadas 
 
